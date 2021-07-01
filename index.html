@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Js</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container" style="padding: 5%;">
+        <form class="form-horizontal" id="formValidation" novalidate>
+            <div class="form-group">
+                <label for="inputName" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control required" name="name" id="inputName" placeholder="Enter Of Name...">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control required" name="email" id="inputEmail" placeholder="Enter Of Email..." messageError="Email Cant Be Empty!">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-6">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Enter Of Email...">
+                </div>
+            </div>
+            <div class="form-group center" style="padding-left:18.5%">
+                <input type="submit" class="btn btn-success col-sm-7">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
