@@ -13,15 +13,21 @@
     <div class="container" style="padding: 5%;">
         <form class="form-horizontal" id="formValidation" novalidate>
             <div class="form-group">
-                <label for="inputName" class="col-sm-2 control-label">Name</label>
-                <div class="col-sm-6">
-                    <input type="text" class="form-control required" name="name" id="inputName" placeholder="Enter Of Name...">
-                </div>
+                    <label class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control required" name="lastname" id="lastName" placeholder="Enter Of Lastname...">
+                    </div>
             </div>
             <div class="form-group">
                 <label for="inputEmail" class="col-sm-2 control-label">Email</label>
                 <div class="col-sm-6">
                     <input type="email" class="form-control required" name="email" id="inputEmail" placeholder="Enter Of Email..." messageError="Email Cant Be Empty!">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail" class="col-sm-2 control-label">phone</label>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control required numeric" name="phone" id="inputPhone" placeholder="Enter Of Email..." messageError="Phone Must Be a Entred and Numeric!">
                 </div>
             </div>
             <div class="form-group">
